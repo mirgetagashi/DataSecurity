@@ -52,7 +52,7 @@ Beaufort Cipher is a method of encryption that uses a specific key to encode and
 
 #### Results:
 Encryption and decryption <br>
-<img src="Beaufort.png" width="700" height="250" >
+<img src="https://github.com/mirgetagashi/DataSecurity/assets/154754089/b9bea575-4417-4b1c-8a7b-c3c543e24030" alt="Screenshot" width="700" height="250">
 
 
 
