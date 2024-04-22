@@ -32,10 +32,10 @@ Transposition techniques alter the order of plaintext letters through permutatio
 4. Reads from bottom to top<br>
 
 #### Results:
-##### Encryption
+ Encryption <br>
 <img src="https://github.com/mirgetagashi/DataSecurity/assets/154754089/a23457fa-44b5-4a47-9946-dc8b185ac636" width="700" height="250">
 
-##### Decryption
+Decryption <br>
 <img src="https://github.com/mirgetagashi/DataSecurity/assets/154754089/1bbcda03-a836-4a66-9aed-1b8e3426cceb" width="700" height="250">
 
 
