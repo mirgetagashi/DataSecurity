@@ -41,11 +41,11 @@ Decryption <br>
 ### 2.Beaufort Cipher
 
 #### Encryption and Decryption
-1.Run program
-2.Enter plaintext
-3.Enter key
-4.Display the encrypted text
-5.Display the plaintext
+1.Run program <br>
+2.Enter plaintext<br>
+3.Enter key<br>
+4.Display the encrypted text<br>
+5.Display the plaintext<br>
 
 #### Description:
 Beaufort Cipher is a method of encryption that uses a specific key to encode and decode messages. This method works by comparing each letter of the message with the corresponding letter of the key and using a type of operation called "modulo subtraction" to find the encoded letter. For example, if the message letter is "A" and the key letter is "C", the encoded letter will be "Y". This process is repeated for each character in the message to encode the entire message. To decode, the operations are reversed. Beaufort Cipher provides a simple and effective method for ensuring communication.<br>
