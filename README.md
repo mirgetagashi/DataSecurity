@@ -5,7 +5,7 @@ Implementations of cryptographic algorithms: Beaufort Cipher and Diagonal Transp
 
 ### Programing language: Java
 
-## 1. Diagonal Transposition Cipher
+### 1. Diagonal Transposition Cipher
 #### Encryption:
 1. Run program
 2. Enter plaintext
