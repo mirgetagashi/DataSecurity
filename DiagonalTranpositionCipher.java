@@ -6,22 +6,23 @@ class DiagonalTranspositionCipher {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Jepni tekstin te cilin duhet ta enkriptojme");
+        System.out.println("Enter plaintext:");
         String plainText = scanner.nextLine();
 
-        System.out.println("Jepni celesin per enkriptim :");
+        System.out.println("Key:");
         String key = scanner.nextLine();
 
         String cipherText = encrypt(plainText, key);
-        System.out.println("Teksti i enkriptuar eshte: " + cipherText);
+        System.out.println("The ciphertext is: " + cipherText);
 
 
         String decryptedText=decrypt(cipherText,key);
-        System.out.println("Teksti i dekriptuar: "+decryptedText);
+        System.out.println("Plaintext is: "+decryptedText);
 
     }
 
     public static String encrypt(String plainText, String key) {
+        key = key.replaceAll("\\s+", "");
         int col = key.length();
         int row = (plainText.length() + key.length() - 1) / key.length();
 
@@ -86,6 +87,7 @@ class DiagonalTranspositionCipher {
     }
 
     public static String decrypt(String cipherText, String key) {
+        key = key.replaceAll("\\s+", "");
         int col = key.length();
         int row = (cipherText.length() + key.length() - 1) / key.length();
         char[][] cipherMatrix = new char[row][col];
