@@ -9,7 +9,7 @@ Natyra Bicaj<br>
 Naila Radoncic<br>
 Mesud Hoxha<br>
 
-#### Programing language: Java
+#### Programing language: Java, C++
 
 ### 1. Diagonal Transposition Cipher
 #### Encryption:
@@ -37,6 +37,22 @@ Diagonal transposition cipher enhanc the security and efficiency of transpositio
 
 Decryption <br>
 <img src="https://github.com/mirgetagashi/DataSecurity/assets/154754089/1bbcda03-a836-4a66-9aed-1b8e3426cceb" width="700" height="250">
+
+### 2.Beaufort Cipher
+
+#### Encryption and Decryption
+1.Run program
+2.Enter plaintext
+3.Enter key
+4.Display the encrypted text
+5.Display the plaintext
+
+#### Description:
+Beaufort Cipher is a method of encryption that uses a specific key to encode and decode messages. This method works by comparing each letter of the message with the corresponding letter of the key and using a type of operation called "modulo subtraction" to find the encoded letter. For example, if the message letter is "A" and the key letter is "C", the encoded letter will be "Y". This process is repeated for each character in the message to encode the entire message. To decode, the operations are reversed. Beaufort Cipher provides a simple and effective method for ensuring communication.<br>
+
+#### Results:
+Encryption and decryption <br>
+<img src="Beaufort.png" width="700" height="250" >
 
 
 
