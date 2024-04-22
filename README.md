@@ -19,6 +19,13 @@ Implementations of cryptographic algorithms: Beaufort Cipher and Diagonal Transp
 4. Display the plain text
 
 #### Description:
+Diagonal transposition enhanc the security and efficiency of transposition-based encryption. By arranging plaintext characters diagonally and utilizing variable-length matrices, the algorithm aims to streamline encryption processes and mitigate vulnerabilities. The algorithm which is used to arrange the input string into diagonal is as follows:
+1. Write the plain text message in a diagonal form of variable length size
+2. Generate the key
+3. Read the message column by column in random order of columns by using the key positions with the help of wave technique
+4. Reads from bottom to top
+Diagonal transpositions automatically construct the matrix with maximum 65536 characters at a time and generate the key as an ASCII code and to change the positions for generating the cipher text. It is also supports the space between the words.
+
 
 
 
