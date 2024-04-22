@@ -25,7 +25,7 @@ Mesud Hoxha<br>
 4. Display the plain text
 
 #### Description:
-Transposition techniques alter the order of plaintext letters through permutations, enhancing security through obfuscation. Diagonal transposition enhanc the security and efficiency of transposition-based encryption. By arranging plaintext characters diagonally and utilizing variable-length matrices, the algorithm aims to streamline encryption processes and mitigate vulnerabilities.Diagonal transpositional also supports the space between the words. The algorithm which is used to arrange the input string into diagonal is as follows:
+Diagonal transposition cipher enhanc the security and efficiency of transposition-based encryption. By arranging plaintext characters diagonally and utilizing variable-length matrices, the algorithm aims to streamline encryption processes and mitigate vulnerabilities.Diagonal transpositional also supports the space between the words. The algorithm which is used to arrange the input string into diagonal is as follows:
 1. Write the plain text message in a diagonal form of variable length size:  diagonal, upper triangular, and lower triangular format
 2. Generate the key
 3. Read the message column by column in random order of columns by using the key positions with the help of wave technique
