@@ -9,7 +9,7 @@ Natyra Bicaj<br>
 Naila Radoncic<br>
 Mesud Hoxha<br>
 
-#### Programing language: Java, C++
+#### Programing language: Java
 
 ### 1. Diagonal Transposition Cipher
 #### Encryption:
