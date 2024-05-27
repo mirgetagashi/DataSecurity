@@ -3,11 +3,6 @@
 
 ### Implementations of cryptographic algorithms: Diagonal Transposition Cipher and Beaufort Cipher.
 
-#### Authors:
-Mirgeta Gashi<br>
-Natyra Bicaj<br>
-Naila Radoncic<br>
-Mesud Hoxha<br>
 
 #### Programing language: Java
 
